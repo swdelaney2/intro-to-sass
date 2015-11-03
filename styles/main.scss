@@ -7,11 +7,13 @@ $sub-header: 1.5rem; // 150%
 $byline: .75rem; // 75%
 
 // margin sizes for headlines
-$headline-margin: 5px;
+$headline-margin: 1px;
+$margbot: -30px;
 
 // fonts
-$sans-serif: 'Open Sans', sans-serif; // this means that if the device does not have Open Sans, it will default to the standard sans-serif
-$serif: 'Slabo 27px', serif;
+
+$sans-serif: 'Tenali Ramakrishna', sans-serif; // this means that if the device does not have Open Sans, it will default to the standard sans-serif
+$serif: 'Suravaram', serif;
 
 body {
   font-size: 16px;
@@ -21,6 +23,7 @@ body {
 h1 {
   font-size: $headline-text;
   margin: $headline-margin;
+  margin-bottom: $margbot;
   font-family: $serif;
 }
 
@@ -35,6 +38,7 @@ nav li {
 h2 {
   font-size: $sub-header;
     margin: $headline-margin;
+      margin-bottom: $margbot;
       font-family: $serif;
 }
 

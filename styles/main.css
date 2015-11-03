@@ -1,11 +1,12 @@
 body {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Tenali Ramakrishna", sans-serif; }
 
 h1 {
   font-size: 3rem;
-  margin: 5px;
-  font-family: "Slabo 27px", serif; }
+  margin: 1px;
+  margin-bottom: -30px;
+  font-family: "Suravaram", serif; }
 
 p {
   font-size: 1rem; }
@@ -15,8 +16,9 @@ nav li {
 
 h2 {
   font-size: 1.5rem;
-  margin: 5px;
-  font-family: "Slabo 27px", serif; }
+  margin: 1px;
+  margin-bottom: -30px;
+  font-family: "Suravaram", serif; }
 
 figcaption {
   font-size: 0.75rem; }
